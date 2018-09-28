@@ -2,7 +2,7 @@
 import sys
 try:
     year = int(input("Please Enter the Year in numbers "))
-except ValueError:
+except:
     print('You have to enter numbers only')
     sys.exit()
 
